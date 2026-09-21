@@ -1,0 +1,25 @@
+{
+  "name": "digital-contact-book",
+  "version": "1.0.0",
+  "description": "A full-stack Digital Contact Book mini-project with REST API, persistent storage, and modern glassmorphic UI",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "contact-book",
+    "full-stack",
+    "express",
+    "rest-api",
+    "mini-project"
+  ],
+  "author": "Full Stack Developer",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "uuid": "^11.1.0"
+  }
+}
